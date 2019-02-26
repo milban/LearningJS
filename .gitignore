@@ -1,6 +1,9 @@
 *.vscode
 *.log
 
+dist
+public/dist
+
 # 프로젝트 의존성
 node_modules
 
