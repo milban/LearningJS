@@ -1,2 +1,2 @@
 # Learning JavaScript, 3rd Edition
-## For personal instudy JS with ES6
+## For personal study JS with ES6
