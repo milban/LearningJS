@@ -1,5 +1,6 @@
 *.vscode
 *.log
+*.pdf
 
 dist
 public/dist
