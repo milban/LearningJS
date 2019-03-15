@@ -1,3 +1,7 @@
+/*
+    mixin 개념이 잘 이해가 안됨. 또 볼것
+*/
+
 class Car{
     constructor(make, mode1) {
         this.make = make
@@ -16,7 +20,7 @@ class InsurancePolicy {}
 function makeInsurable(o) {
     o.addInsurancePolicy = function(p) { this.insurancePolicy = p }
     o.getInsurancePolicy = function() { return this.insurancePolicy }
-    o.isInsured = function() { return !!this.insurancePolicy }
+    o.isInsured = function() { return !!this.insurancePolicy } // !!의 뜻은 모르겠음
 }
 
 makeInsurable(Car.prototype)
